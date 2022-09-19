@@ -24,6 +24,7 @@
         android:maxLines="2"
         android:text="Turning Red"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F1F1F1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ivPoster"
         app:layout_constraintTop_toTopOf="parent" />
@@ -38,6 +39,7 @@
         android:ellipsize="end"
         android:maxLines="5"
         android:text="Thirteen-year-old Mei is experiencing the awkwardness of being a teenager with a twist – when she gets too excited, she transforms into a giant red panda."
+        android:textColor="#91CA88"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ivPoster"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle" />

@@ -18,7 +18,7 @@ data class Movie (
                     Movie(
                         movieJson.getInt("id"),
                         movieJson.getString("poster_path"),
-                        movieJson.getString("title"),
+                        movieJson.getString("name"),
                         movieJson.getString("overview")
                     )
                 )

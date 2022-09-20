@@ -18,6 +18,24 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         tools:text="The Lord of the Rings: The Rings of Power" />
 
+<!--    <ImageView-->
+<!--        android:id="@+id/iv_Poster"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        tools:srcCompat="@tools:sample/avatars" />-->
+
+    <TextView
+        android:id="@+id/tv_airDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#F1F1F1"
+        android:text="TextView" />
+
     <RatingBar
         android:id="@+id/Rating"
         style="@style/Widget.AppCompat.RatingBar.Indicator"

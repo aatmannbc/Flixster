@@ -8,6 +8,8 @@ import org.json.JSONArray
 @Parcelize
 data class Movie (
     val movieId: Int,
+    val voteAvergae : Double,
+    val airDate : String,
     private val posterPath: String,
     val name: String,
     val overview: String,
@@ -22,6 +24,8 @@ data class Movie (
                 movies.add(
                     Movie(
                         movieJson.getInt("id"),
+                        movieJson.getDouble("vote_average"),
+                        movieJson.getString("first_air_date"),
                         movieJson.getString("poster_path"),
                         movieJson.getString("name"),
                         movieJson.getString("overview")

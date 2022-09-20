@@ -7,10 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-
+const val MOVIE_EXTRA = "MOVIE_EXTRA"
 class MovieAdapter(private val context: Context, private val movies: List<Movie>) : RecyclerView.Adapter<MovieAdapter.ViewHolder>(){
 
     // Expensive operation: create a view
@@ -35,7 +34,7 @@ class MovieAdapter(private val context: Context, private val movies: List<Movie>
             itemView.setOnClickListener(this)
         }
         fun bind(movie: Movie){
-            tvTitle.text = movie.title
+            tvTitle.text = movie.name
             tvOverview.text = movie.overview
             Glide.with(context).load(movie.posterImageUrl).into(ivPoster)
         }
@@ -43,7 +42,7 @@ class MovieAdapter(private val context: Context, private val movies: List<Movie>
         override fun onClick(p0: View?) {
             val movie = movies[adapterPosition]
             val intent = Intent(context,DetailActivity::class.java)
-            intent.putExtra("movie_title",movie.title)
+            intent.putExtra(MOVIE_EXTRA,movie)
             context.startActivity(intent)
 
         }

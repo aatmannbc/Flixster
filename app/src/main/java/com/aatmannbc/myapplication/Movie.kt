@@ -1,13 +1,18 @@
 package com.aatmannbc.myapplication
 
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+import kotlinx.parcelize.IgnoredOnParcel
 import org.json.JSONArray
 
+@Parcelize
 data class Movie (
     val movieId: Int,
     private val posterPath: String,
-    val title: String,
+    val name: String,
     val overview: String,
-){
+): Parcelable{
+    @IgnoredOnParcel
     val posterImageUrl = "https://image.tmdb.org/t/p/w342/$posterPath"
     companion object{
         fun fromJasonArray(movieJsonArray: JSONArray): List<Movie> {

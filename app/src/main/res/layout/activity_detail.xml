@@ -5,11 +5,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#272525"
     tools:context=".DetailActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#F1F1F1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="The Lord of the Rings: The Rings of Power" />
+
+    <RatingBar
+        android:id="@+id/Rating"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:isIndicator="true"
+        android:numStars="10"
+        android:rating="4.5"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:id="@+id/tv_Overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#91CA88"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        tools:text="Beginning in a time of relative peace, we follow an ensemble cast of characters as they confront the re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of Lindon, to the breathtaking island kingdom of Númenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone." />
 </LinearLayout>

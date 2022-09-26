@@ -36,9 +36,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-https://media.giphy.com/media/QjA3C6PwSJj6heLP2D/giphy.gif
 
-<iframe src="https://giphy.com/embed/QjA3C6PwSJj6heLP2D" width="478" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/QjA3C6PwSJj6heLP2D">via GIPHY</a></p>
 
 
 GIF created with Kap  
@@ -109,7 +107,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/sZHgveN.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/QjA3C6PwSJj6heLP2D/giphy-downsized.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 

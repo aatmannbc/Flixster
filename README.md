@@ -38,7 +38,7 @@ Here's a walkthrough of implemented user stories:
 
 https://media.giphy.com/media/QjA3C6PwSJj6heLP2D/giphy.gif
 
-<img src='https://media.giphy.com/media/QjA3C6PwSJj6heLP2D/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<iframe src="https://giphy.com/embed/QjA3C6PwSJj6heLP2D" width="478" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/QjA3C6PwSJj6heLP2D">via GIPHY</a></p>
 
 
 GIF created with Kap  

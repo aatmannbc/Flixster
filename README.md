@@ -30,13 +30,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] Added Tv Show air date to the details.
+- [x] Added Tv Show air date to the details.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-
+https://media.giphy.com/media/QjA3C6PwSJj6heLP2D/giphy.gif
 
 
 GIF created with Kap  

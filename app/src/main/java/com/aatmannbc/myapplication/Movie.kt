@@ -10,7 +10,7 @@ data class Movie (
     val movieId: Int,
     val voteAvergae : Double,
     val airDate : String,
-    private val posterPath: String,
+    val posterPath: String,
     val name: String,
     val overview: String,
 ): Parcelable{
